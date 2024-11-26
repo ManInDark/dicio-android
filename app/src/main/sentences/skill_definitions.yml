@@ -92,3 +92,8 @@ skills:
         captures:
           - id: where
             type: string
+
+  - id: battery
+    specificity: high
+    sentences:
+      - id: base

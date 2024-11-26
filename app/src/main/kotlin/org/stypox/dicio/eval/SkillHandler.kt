@@ -17,6 +17,7 @@ import org.stypox.dicio.di.LocaleManager
 import org.stypox.dicio.di.SkillContextImpl
 import org.stypox.dicio.settings.datastore.UserSettings
 import org.stypox.dicio.settings.datastore.UserSettingsModule
+import org.stypox.dicio.skills.battery.BatteryInfo
 import org.stypox.dicio.skills.calculator.CalculatorInfo
 import org.stypox.dicio.skills.current_time.CurrentTimeInfo
 import org.stypox.dicio.skills.fallback.text.TextFallbackInfo
@@ -47,6 +48,7 @@ class SkillHandler @Inject constructor(
         TelephoneInfo,
         TimerInfo,
         CurrentTimeInfo,
+        BatteryInfo,
     )
 
     // TODO add more fallback skills (e.g. search)

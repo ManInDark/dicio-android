@@ -1,0 +1,6 @@
+base:
+  - battery status?
+  - power status?
+  - status battery
+  - status power
+  - What is the battery level?
